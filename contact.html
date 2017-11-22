@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OSM QA tool</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/default.css">
+	    <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/media-queries.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+
+        
+    </head>
+
+    <body>
+  
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-md-12" >
+                <nav class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="navbar-header">
+                        <a class="navbar-brand"><span class="glyphicon glyphicon-globe"></span>   OpenStreetMap QA tool</a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="contact.html">About me</a></li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <br><br>
+        </div>
+     </div>
+    
+
+        
+           <!-- Header
+   ================================================== -->
+   
+   <header id="home" style="position: relative; top: -15px;">
+        
+      <div class="row banner">
+        
+         <div class="banner-text">
+           
+            <h1 class="responsive-headline" style="color:#2eb8b8;">I'm Manuela Butuc.</h1>
+            <h3 style="color:#051414">I'm an US based <span style="color:#2eb8b8;">data analyst</span>, <span style="color:#2eb8b8;">OpenStreetMap editor</span> and <span style="color:#2eb8b8;">programming enthusiast</span>. I created this web app to learn web technologies and to make OSM known. <span style="color:#2eb8b8;">Start scrolling</span> and learn more <a class="smoothscroll" href="#about" style="color:#00b38f;">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.linkedin.com/in/manuela-butuc/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.facebook.com/gavris.manuela" target="_blank"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://github.com/manuelabutuc" target="_blank"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://twitter.com/ButucManuela" target="_blank"><i class="fa fa-twitter"></i></a></li>             
+               <li><a href="skype:gavris_manuela1993?call" target="_blank"><i class="fa fa-skype"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle" style="color:#051414;"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about" style="position: relative; top: -15px;">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>My name is Manuela Butuc and I currently live in the US. I enjoy hikes, a good cup of coffee, good books and riding my bike. I love maps, spatial data and the combination between these and programming. My app is just a mock-up of what a real OSM quality assurance should look like. I still have a lot of work to do before it becomes as good and efficient as other similar apps out there. But, I will do my best to learn more and further develop it.   
+            </p>
+
+          
+         </div> 
+
+      </div>
+
+   </section>
+  
+
+    <script type='text/javascript' src='db/possible_roundabouts.geojson'></script>
+    <script type='text/javascript' src='db/overlapping_buildings.geojson'></script>
+    <script type='text/javascript' src='db/untagged_ways.geojson'></script>
+    <script type='text/javascript' src='db/duplicates.geojson'></script>
+    <script type='text/javascript' src='leaf-demo.js'></script>
+    </body>
+</html>
